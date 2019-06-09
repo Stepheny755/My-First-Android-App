@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TestApplication</string>
+    <string name="text_input">Input Text</string>
+    <string name="button_text">Transcribe!</string>
 </resources>
