@@ -11,12 +11,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var mButton = button;
+        var sb = spongeButton;
+        var ob = owoButton;
         var inputText = "";
 
-        mButton.setOnClickListener{
+        sb.setOnClickListener{
             inputText = editInputText.text.toString();
             textView.text = TranslateFunctions.translatemock(inputText);
+        }
+        ob.setOnClickListener{
+            inputText = editInputText.text.toString();
+            textView.text = TranslateFunctions.translateowo(inputText);
         }
     }
 }
