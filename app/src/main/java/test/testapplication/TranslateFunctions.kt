@@ -33,6 +33,7 @@ class TranslateFunctions {
             s = s.replace(Regex("""[n]([aeiou])"""), "ny$1")
             s = s.replace(Regex("""[N]([aeiouAEIOU])"""), "Ny$1")
             s = s.replace(Regex("""ove"""), "uv")
+            s = s.replace(Regex("""you"""), "uwu")
             return s;
         }
     }
